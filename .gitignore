@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 #API KEY
-SECRET_KEY = "2b0173a1f6d9827eb72821084adc3b2c"
+SECRET_KEY = ""
 
 
