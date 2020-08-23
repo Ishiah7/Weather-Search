@@ -47,7 +47,7 @@ class WeatherOutput extends React.Component {
   };
 
   async componentDidMount() {
-    const key = "2b0173a1f6d9827eb72821084adc3b2c";
+    const key = SECRET_KEY;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.cityName}&units=${this.state.units}&appid=${key}`;
     await fetch(url)
       .then((res) => {
